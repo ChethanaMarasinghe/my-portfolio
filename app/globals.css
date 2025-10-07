@@ -1,26 +1,110 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+html { scroll-behavior: smooth; }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Light background */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-image:
+    radial-gradient(ellipse at top, rgba(14,165,233,0.06), transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(16,185,129,0.06), transparent 60%);
 }
+
+/* Dark background */
+html.dark body {
+  background-color: #0f172a; /* slate-900 */
+  background-image:
+    radial-gradient(ellipse at top, rgba(56,189,248,0.08), transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(52,211,153,0.08), transparent 60%);
+  color-scheme: dark;
+}
+
+/* Subtle aurora (very calm) */
+@keyframes auroraSlow {
+  0%, 100% { transform: translate3d(0,0,0) scale(1); }
+  50% { transform: translate3d(4%, -4%, 0) scale(1.04); }
+}
+.aurora-slow { animation: auroraSlow 28s ease-in-out infinite; }
+
+/* Particles fade-in (optional) */
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+.fade-in { animation: fadeIn 1.2s ease both; }
+
+/* Rotations */
+@keyframes turn { to { transform: rotate(360deg); } }
+.animate-turn-slow { animation: turn 24s linear infinite; }
+.animate-turn-slower { animation: turn 40s linear infinite; }
+
+/* Soft pulsing glow */
+@keyframes pulse-soft { 0%, 100% { opacity: 0.9; } 50% { opacity: 1; } }
+.animate-pulse-soft { animation: pulse-soft 6s ease-in-out infinite; }
+
+/* Button shimmer */
+@keyframes shine { 0% { transform: translateX(-150%); } 100% { transform: translateX(150%); } }
+.btn-shimmer { position: relative; overflow: hidden; }
+.btn-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: -100% auto -100% -50%;
+  width: 60%;
+  transform: rotate(25deg);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  animation: shine 7s linear infinite;
+  pointer-events: none;
+}
+
+/* Marquee (speed via CSS var) */
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.marquee-track {
+  display: inline-flex;
+  min-width: 200%;
+  animation: marquee var(--marquee-duration, 65s) linear infinite;
+}
+
+/* Project card: image shine on hover */
+@keyframes sweep {
+  from { transform: translateX(-150%) rotate(18deg); }
+  to { transform: translateX(150%) rotate(18deg); }
+}
+.img-shine { position: relative; overflow: hidden; }
+.img-shine::after {
+  content: "";
+  position: absolute;
+  inset: -40% -120% auto -120%;
+  height: 200%;
+  width: 60%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.45), transparent);
+  opacity: 0;
+  pointer-events: none;
+}
+.img-shine:hover::after {
+  opacity: 1;
+  animation: sweep 1.2s ease forwards;
+}
+
+/* Typed caret */
+@keyframes caretBlink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+.typed-caret {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 4px;
+  background: currentColor;
+  vertical-align: -0.1em;
+  animation: caretBlink 1s steps(2, start) infinite;
+}
+
+/* Line clamp */
+.line-clamp-2, .line-clamp-3 {
+  display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;
+}
+.line-clamp-2 { -webkit-line-clamp: 2; }
+.line-clamp-3 { -webkit-line-clamp: 3; }
+
+/* Calm aurora movement */
+@keyframes cm-aurora-kf {
+  0%, 100% { transform: translate3d(0,0,0) scale(1); }
+  50% { transform: translate3d(5%, -5%, 0) scale(1.05); }
+}
+.cm-aurora { animation: cm-aurora-kf 40s ease-in-out infinite; }
