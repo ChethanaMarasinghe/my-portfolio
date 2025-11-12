@@ -45,7 +45,7 @@ export const PROJECTS = [
     linkedin:
       "https://www.linkedin.com/posts/chethana-marasinghe-8ab5a6311_react-reactquery-zustand-activity-7382733017510760448-HM9V?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
   },
-  year: "2024",
+  year: "2025",
 },
 
   // 4) Book Review Platform — image + GitHub + LinkedIn
@@ -77,7 +77,7 @@ export const PROJECTS = [
     linkedin:
       "https://www.linkedin.com/posts/chethana-marasinghe-8ab5a6311_jsp-mysql-webdevelopment-activity-7327677699634749440-8SXD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
   },
-  year: "2023",
+  year: "2025",
 },
 
   // 6) Online Healthcare Platform — image + GitHub
@@ -91,7 +91,7 @@ export const PROJECTS = [
   links: {
     repo: "https://github.com/ChethanaMarasinghe/MyCare.git",
   },
-  year: "2023",
+  year: "2025",
 },
 
   // 7) AR Navigation — no image, LinkedIn only
@@ -101,12 +101,12 @@ export const PROJECTS = [
   description:
     "Web‑based AR navigation for campus landmarks using AR.js and Three.js with mobile‑friendly rendering.",
   technologies: ["AR.js", "Three.js", "WebXR", "WebGL", "JavaScript"],
-  image: "/Ar_Vr.png", // <- added image
+  image: "/Ar_Vr.png", 
   links: {
     linkedin:
       "https://www.linkedin.com/posts/ravindukd_at-uwuexpo-2025-we-built-an-ar-navigation-ugcPost-7369949091054673920-mls3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
   },
-  year: "2024",
+  year: "2025",
 },
 
   // 8) UI/UX: TBD READS — LinkedIn + Behance + image

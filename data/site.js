@@ -10,9 +10,9 @@ export const PROFILE = {
     "A results-driven Computer Science undergraduate building the future of web interaction through scalable full-stack systems, intelligent AI tools, and immersive AR technology.",
   aboutLong:
     "A passionate and detail-oriented front-end developer with a strong foundation in modern web technologies, including React.js and Next.js. I am dedicated to crafting responsive, performant, and user-centric applications. My work is driven by a commitment to clean code and a keen eye for creating intuitive digital experiences.",
+  location: "\"Thurusewana\",Karandupana, Molagoda,Kegalle",
   email: "marasinghes8S0@gmail.com",
   phone: "+9471 882 4836",
-  location: `"Thurusewana", Karandupana, Molagoda, Kegalle`,
   resumeUrl: "/resume.pdf",
   image: "/profile.jpg",
   social: {
