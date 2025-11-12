@@ -2,7 +2,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { SITE } from "../data/site";
-import DynamicBackground from "../components/DynamicBackground"; // <— new
+import DynamicBackground from "../components/DynamicBackground"; 
 
 export default function RootLayout({ children }) {
   return (

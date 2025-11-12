@@ -33,7 +33,7 @@ function useTyped(words = [], speed = 80, pause = 1200) {
 
 export default function Hero({ profile, techs }) {
   const typed = useTyped(
-    ["Full‑Stack Developer", "Frontend Developer", "UI/UX Developer", "AI Software Developer"],
+    ["Full‑Stack Developer", "Frontend Developer", "UI/UX Developer", "AI Software Developer", "Software QA Engineer", "MERN Stack Developer"],
     75,
     1200
   );

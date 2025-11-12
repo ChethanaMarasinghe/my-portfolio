@@ -8,8 +8,10 @@ export const PROFILE = {
   role: "BSc (Hons) in Computer Science and Technology — Undergraduate",
   intro:
     "A results-driven Computer Science undergraduate building the future of web interaction through scalable full-stack systems, intelligent AI tools, and immersive AR technology.",
-  aboutLong:
-    "A passionate and detail-oriented front-end developer with a strong foundation in modern web technologies, including React.js and Next.js. I am dedicated to crafting responsive, performant, and user-centric applications. My work is driven by a commitment to clean code and a keen eye for creating intuitive digital experiences.",
+  aboutParagraph1:
+    "I am a motivated Computer Science and Technology undergraduate at Uva Wellassa University with a strong academic record. My technical expertise spans full-stack development using the MERN stack and Next.js, complemented by comprehensive software testing knowledge and AI/ML engineering experience.",
+  aboutParagraph2:
+    "I have successfully built and deployed complex systems including an AI-powered hotel booking platform with OpenAI integration and a sophisticated gaming discovery application. As an active leader in university tech communities, I combine technical proficiency with proven teamwork and project coordination skills.",
   location: "\"Thurusewana\",Karandupana, Molagoda,Kegalle",
   email: "marasinghes8S0@gmail.com",
   phone: "+9471 882 4836",
