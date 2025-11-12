@@ -8,11 +8,12 @@ export const PROJECTS = [
   technologies: ["MERN", "Express.js", "JWT", "OpenAI API", "MongoDB", "React", "Tailwind CSS"],
   image: "/coralstay.png",
   links: {
-    repo: "https://github.com/ChethanaMarasinghe/coralstay",
+    repo: "https://github.com/ChethanaMarasinghe/Coral-Stay_Frontend",
+    repo: "https://github.com/ChethanaMarasinghe/Coral-Stay_Backend",
     linkedin:
-      "https://www.linkedin.com/in/chethana-marasinghe-8ab5a6311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/posts/chethana-marasinghe-8ab5a6311_coralstay-mernstack-fullstackdevelopment-activity-7392628578254819329-tqd0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
   },
-  year: "2024",
+  year: "2025",
 },
 
   // 2) MCP CV Chat & Mailing Assistant — image + GitHub + LinkedIn
@@ -26,7 +27,7 @@ export const PROJECTS = [
   links: {
     repo: "https://github.com/ChethanaMarasinghe/mcp-cv-chat-mailing-assistant",
     linkedin:
-      "https://www.linkedin.com/in/chethana-marasinghe-8ab5a6311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/posts/chethana-marasinghe-8ab5a6311_mcp-ai-openai-activity-7385541446134775808-ivO0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
   },
   year: "2025",
 },
@@ -42,7 +43,7 @@ export const PROJECTS = [
   links: {
     repo: "https://github.com/ChethanaMarasinghe/gamehub",
     linkedin:
-      "https://www.linkedin.com/in/chethana-marasinghe-8ab5a6311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/posts/chethana-marasinghe-8ab5a6311_react-reactquery-zustand-activity-7382733017510760448-HM9V?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
   },
   year: "2024",
 },
@@ -58,7 +59,7 @@ export const PROJECTS = [
     links: {
       // repo: "https://github.com/...", // add when ready
       linkedin:
-        "https://www.linkedin.com/in/chethana-marasinghe-8ab5a6311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://www.linkedin.com/posts/chethana-marasinghe-8ab5a6311_django-restapi-nextjs-activity-7326922292368756736-wPnM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
     },
     year: "2025",
   },
@@ -72,9 +73,9 @@ export const PROJECTS = [
   technologies: ["React", "Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
   image: "/courseregistration.png",
   links: {
-    repo: "https://github.com/ChethanaMarasinghe/online-course-registration",
+    repo: "https://github.com/ChethanaMarasinghe/RAD-Project---Online-Course-Registration-System.git",
     linkedin:
-      "https://www.linkedin.com/in/chethana-marasinghe-8ab5a6311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/posts/chethana-marasinghe-8ab5a6311_jsp-mysql-webdevelopment-activity-7327677699634749440-8SXD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
   },
   year: "2023",
 },
@@ -88,7 +89,7 @@ export const PROJECTS = [
   technologies: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
   image: "/healthcare.png",
   links: {
-    repo: "https://github.com/ChethanaMarasinghe/healthcare-platform",
+    repo: "https://github.com/ChethanaMarasinghe/MyCare.git",
   },
   year: "2023",
 },
@@ -103,7 +104,7 @@ export const PROJECTS = [
   image: "/Ar_Vr.png", // <- added image
   links: {
     linkedin:
-      "https://www.linkedin.com/in/chethana-marasinghe-8ab5a6311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/posts/ravindukd_at-uwuexpo-2025-we-built-an-ar-navigation-ugcPost-7369949091054673920-mls3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
   },
   year: "2024",
 },
