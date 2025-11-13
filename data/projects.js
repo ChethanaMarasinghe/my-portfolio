@@ -1,4 +1,20 @@
 export const PROJECTS = [
+  // 0) Research Project
+  {
+  slug: "personalized-micro-tutor-ai-rag",
+  title: "Personalized Micro Tutor (AI/RAG)",
+  description:
+    "Develop an Agentic AI based micro-tutor system capable of providing personalized learning support using Generative AI, RAG and LLMs.",
+  technologies: ["Agentic AI", "Generative AI", "RAG", "LLMs", "Python"],
+  image: "/research.png",
+  links: {
+    repo: "https://github.com/Asiri2000/AI-Powered-O-L-Mathematics-Tutoring-Platform.git",
+    // linkedin:
+    //   "https://www.linkedin.com/posts/chethana-marasinghe-8ab5a6311_coralstay-mernstack-fullstackdevelopment-activity-7392628578254819329-tqd0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9Jo4MBSKAjU6bL72hSJqi33O02s1yqL-U",
+  },
+  status: "Ongoing",
+    year: "2025",
+},
   // 1) CoralStay — image + LinkedIn
   {
   slug: "coralstay-booking-and-chatbot",

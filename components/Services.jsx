@@ -2,42 +2,46 @@ import {
   FiLayers,
   FiPenTool,
   FiSmartphone,
-  FiUsers,
+  FiCode,
   FiServer,
 } from "react-icons/fi";
-import { SiOpenai } from "react-icons/si"; // precise icon for AI
+import { SiOpenai } from "react-icons/si";
 
 const SERVICES = [
-  {
-    icon: FiLayers,
-    title: "Full‑Stack Web Apps",
-    desc: "MERN, Next.js, Django REST with clean UI, auth, and integrations.",
-  },
-  {
-    icon: SiOpenai, // or FiCpu if you prefer a generic chip icon
-    title: "AI Integrations",
-    desc: "Chatbots and assistants powered by OpenAI and robust backends.",
-  },
   {
     icon: FiPenTool,
     title: "UI/UX Design",
     desc: "Figma-based prototyping for web and mobile — intuitive, user-centered interfaces with modern design principles.",
   },
   {
-    icon: FiSmartphone,
-    title: "Mobile App Development",
-    desc: "Cross‑platform mobile solutions with responsive design, smooth performance, and seamless API integration.",
+    icon: FiCode,
+    title: "Frontend Development",
+    desc: "Specialized in React, Next.js, and modern UI frameworks.",
   },
   {
-    icon: FiUsers,
-    title: "Technical Project Coordinator",
-    desc: "Orchestrating project workflows and team communication with strong organization and leadership.",
+    icon: FiLayers,
+    title: "Full‑Stack Web Apps",
+    desc: "End-to-end web applications with both frontend and backend expertise.",
   },
   {
     icon: FiServer,
     title: "Backend Development",
-    desc: "Secure, high-performance servers and RESTful APIs using Node.js/Django with MongoDB and PostgreSQL.",
+    desc: "API development, databases, and server-side logic.",
   },
+
+  {
+    icon: FiSmartphone,
+    title: "Mobile App Development",
+    desc: "Cross‑platform mobile solutions with responsive design, smooth performance, and seamless API integration.",
+  },
+
+  {
+    icon: SiOpenai,
+    title: "AI Integrations",
+    desc: "Chatbots and assistants powered by OpenAI and robust backends.",
+  },
+  
+  
 ];
 
 // Optional: subtle color variety per card (repeats)
