@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { SITE } from "../data/site";
 import DynamicBackground from "../components/DynamicBackground"; 
 export const metadata = {
-  metadataBase: new URL(" http://chethana-marasinghe.me/my-portfolio"),
+  metadataBase: new URL("http://chethana-marasinghe.me/my-portfolio"),
 };
 export default function RootLayout({ children }) {
   return (
