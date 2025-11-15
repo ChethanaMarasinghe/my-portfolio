@@ -5,8 +5,6 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-     "export": "next export",
-    "postbuild": "xcopy out docs /E/H/C/I",
     "start": "next start",
     "lint": "eslint"
   },
